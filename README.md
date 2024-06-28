@@ -1,66 +1,62 @@
 # Web Development Project: Weather Application
 
-![weatherapplication](https://github.com/LCC-CIT-Programming-CS233JS/05-weather-template-travisburns/assets/41456635/ded3b21d-796a-4328-a2b0-b16141e04aaf)
+
+![weatherapplication](https://github.com/LCC-CIT-Programming-CS233JS/05-weather-template-travisburns/assets/41456635/7bfc439c-1fc4-4cf0-a8cc-0779e9f506ba)
+
+This repository showcases an advanced weather forecast application, demonstrating proficiency in modern JavaScript, API integration, and dynamic content rendering.
 
 ## Project: Weather Forecast Application
 
-An interactive web application that provides weather forecasts for user-specified locations.
+An interactive web application that provides detailed weather forecasts based on user-input zip codes.
 
 ### Key Features:
-- Fetch weather data based on zip code input
-- Display 4-day weather forecast
+- Fetch location data based on zip code input
+- Retrieve and display 4-day weather forecasts
 - Show detailed weather information for selected days
-- Responsive design for various screen sizes
+- Responsive and styled user interface
 
-### Technologies Used:
-- HTML5
-- CSS3 (with Bootstrap and SASS)
+### Technologies and Concepts:
+- HTML5, CSS3 (with Bootstrap and SASS)
 - JavaScript (ES6+)
-- Webpack for module bundling
-- Babel for JavaScript transpiling
-- OpenWeatherMap API for weather data
-- Fetch API for AJAX requests
+- Webpack and Babel for modern JavaScript development
+- OpenWeatherMap API integration
+- Asynchronous JavaScript with Fetch API and Promises
 
-### Learning Highlights:
-- API integration (OpenWeatherMap)
-- Asynchronous JavaScript with Promises and Fetch API
-- ES6 Modules for code organization
-- Dynamic DOM manipulation
-- Date handling in JavaScript
-- Error handling in asynchronous operations
+### Implementation Highlights:
+1. **Application Structure:**
+   - ES6 Class-based architecture
+   - State management for application data
+   - Event-driven programming
+
+2. **API Integration:**
+   - Dual API calls: geolocation and weather data
+   - Error handling for API requests
+
+3. **Dynamic Content Rendering:**
+   - Template literals for HTML generation
+   - DOM manipulation for updating UI
+
+4. **User Interaction:**
+   - Form submission handling
+   - Click events for detailed weather view
+
+5. **Data Processing:**
+   - Custom date formatting and manipulation
+   - Weather data parsing and formatting
+
+### Key Methods:
+- `constructor()`: Initializes state and UI elements
+- `onFormSubmit()`: Handles form submission and API calls
+- `renderWeatherListItem()`: Generates HTML for individual forecast days
+- `renderWeatherList()`: Displays the complete forecast list
+- `renderCurrentDay()`: Shows detailed weather for a selected day
+- `clearCurrentDay()`: Resets detailed weather display
+
 
 ## Skills Demonstrated
-
-This project showcases the following skills and concepts:
-
-1. **Advanced JavaScript**
-   - ES6+ features (classes, arrow functions, template literals, modules)
-   - Asynchronous programming with Promises and Fetch API
-   - Date manipulation and formatting
-
-2. **API Integration**
-   - Making multiple API calls (geolocation and weather data)
-   - Parsing and utilizing JSON responses
-
-3. **Modern Web Development Tools**
-   - Webpack for module bundling and asset management
-   - Babel for cross-browser compatibility
-   - SASS for advanced styling
-
-4. **DOM Manipulation**
-   - Dynamic content updates based on API responses and user interactions
-   - Event handling for form submissions and user selections
-
-5. **Responsive Design**
-   - Flexbox for layout
-   - Bootstrap for responsive components
-
-6. **Code Organization**
-   - ES6 Modules for separating concerns
-   - Class-based architecture for main application logic
-
-## Future Directions
-- Implement geolocation API for automatic location detection
-- Add more detailed weather information (e.g., precipitation chance, UV index)
-- Implement a map view for visualizing weather patterns
-- Add support for different units (metric/imperial)
+- Advanced JavaScript (ES6+) programming
+- Asynchronous programming and Promise handling
+- API integration and data manipulation
+- Responsive web design
+- Modern development workflow (Webpack, Babel)
+- Error handling and user feedback
